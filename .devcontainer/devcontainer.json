@@ -1,0 +1,13 @@
+{
+    "name": "Python 3.10.9",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
