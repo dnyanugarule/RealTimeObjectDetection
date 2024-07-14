@@ -62,7 +62,7 @@ import cv2
 import math
 
 # Initialize video capture
-cap = cv2.VideoCapture('../Videos/car.mp4')
+cap = cv2.VideoCapture('../Videos/cars2.mp4')
 
 if not cap.isOpened():
     print("Error: Could not open video.")
@@ -121,7 +121,7 @@ while True:
     out.write(img)
     
     # Display the frame
-    cv2.imshow("Image", img)
+   # cv2.imshow("Image", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
