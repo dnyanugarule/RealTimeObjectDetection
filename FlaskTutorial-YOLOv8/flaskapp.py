@@ -4,7 +4,7 @@
 #Importing Flask
 #render_template--> To render any html file, template
 
-from flask import Flask, Response,jsonify,request
+from flask import Flask, Response, jsonify, request
 
 # Required to run the YOLOv8 model
 import cv2

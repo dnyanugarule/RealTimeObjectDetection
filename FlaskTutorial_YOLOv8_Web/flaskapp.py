@@ -1,16 +1,14 @@
-from flask import Flask, render_template, Response,jsonify,request,session
+from flask import Flask, render_template, Response, jsonify,request,session
 
 #FlaskForm--> it is required to receive input from the user
-# Whether uploading a video file  to our object detection model
+# Whether uploading a video file to our object detection model
 
 from flask_wtf import FlaskForm
-
 
 from wtforms import FileField, SubmitField,StringField,DecimalRangeField,IntegerRangeField
 from werkzeug.utils import secure_filename
 from wtforms.validators import InputRequired,NumberRange
 import os
-
 
 # Required to run the YOLOv8 model
 import cv2
