@@ -77,7 +77,7 @@ def front():
     return render_template('videoprojectnew.html', form=form)
 @app.route('/video')
 def video():
-    #return Response(generate_frames(path_x='static/files/bikes.mp4'), mimetype='multipart/x-mixed-replace; boundary=frame')
+    #return Response(generate_frames(path_x='static/files/bikes.mp4'), mimetype='multipart/x-mixed-replace; undary=frame')
     return Response(generate_frames(path_x = session.get('video_path', None)),mimetype='multipart/x-mixed-replace; boundary=frame')
 
 # To display the Output Video on Webcam page

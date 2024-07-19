@@ -67,7 +67,6 @@ tqdm
 traitlets
 typing-extensions
 tzdata
-ultralytics
 urllib3
 wcwidth
 werkzeug
