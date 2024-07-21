@@ -1,8 +1,7 @@
-ultralytics==8.0.26
+ultralytics
 numpy<2
 matplotlib
 opencv-python
-
 Markdown 
 MarkupSafe
 PyYAML
