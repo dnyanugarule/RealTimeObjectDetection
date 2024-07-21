@@ -1,0 +1,6 @@
+[build]
+  command = "python FlaskTutorial_YOLOv8_Web/flaskapp.py"
+  publish = "."
+
+[[plugins]]
+  package = "netlify-plugin-flask"
